@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row;
+    height: fit-content;
+    width: 100%;
+    padding:20px;
+    justify-content: space-between;
+    box-shadow: 0 3px 5px -3px grey;
+}
+.nav .logo{
+    margin-left: 15px;
+}
+.navtabs ul{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:space-between;
+    align-items: center;
+}
+.navtabs .li-em{
+    color: aqua;
+    font-weight: 600;
+}
+.navtabs ul button{
+    border-radius: 40px;
+    color: aquamarine;
+}
+.nav .navtabs ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+    margin: 0 10px;
+}
+.firstsec h2{
+    color: #2252a1;
+    font-weight: bolder;
+}
+.firstsec p{
+    margin-top: 40px;
+}
+.sec-1{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sec-1 .secrow{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row;
+}
+.sec-1 img{
+    width: 400px;
+    height: auto;
+}
+.sec-1 .texthead{
+    font-size: 40px;
+    color: darkblue;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.sec-1 hr{
+    height: 10px;
+    font-size: 12pt;
+    width: 90px;
+    background-color: aquamarine;
+    float: left;
+    margin:10px 0px;
+}
+.sec-1 .headcontent{
+    margin-top: 20px;
+    font-size: 11pt;
+    font-family: 'Roboto', sans-serif;
+    color:#2252a1;
+}
+.sec-1 .secrow2{
+    margin-top: 80px;
+    background-color: rgba(0,0,0,0.1);
+    color: #2252a1;
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 18pt ;
+    font-weight: 600;
+}
+.sec-1 .secrow3 b{
+    font-size: 11pt;
+}
+.sec-1 .secrow3 {
+    margin-top: 80px;
+    text-align: center;
+    color: #2252a1;
+    font-size: 10pt;
+}
+.sec-1 .secrow3  img{
+    width: 200px;
+    height: auto;
+}
+.sec-1 .secrow3 .midcol{
+    border-left: 2px solid aquamarine;
+    border-right: 2px solid aquamarine;
+}
+.jumbotron{
+    margin-top: 100px;
+    padding: 30px 60px;
+}
+.jumbotron .secrow4{
+    text-align: center;
+    color: #fff;
+    background-color:#081833;
+    margin: auto auto;
+}
+.jumbotron .secrow4 p{
+    font-size: 10pt;
+    text-align: center;
+}
+.secrow5{
+    margin-top: 20px;
+}
+.jumbotron .secrow5 b{
+    margin-top: 20px;
+}
+
+.formsec{
+    text-align: center;
+    margin-top: 100px;
+}
+.formsec small{
+    font-size: 10pt;
+    font-weight: bolder;
+    color: aqua;
+}
+.formsec img{
+    width: 100px;
+    height: auto;
+}
+.formsec .personintro{
+    display: flex;
+    justify-content: center;
+}
+.formsec .personintro img{
+    width: 50px;
+    height: 50px;
+}
+.formsec .personintro p{
+    color: #2252a1;
+    font-size: 15pt;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+.formrow{
+    margin-top: 40px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.formrow label{
+    font-size: 10pt;
+}
+.formrow label sups{
+    color: springgreen;
+}
+.formrow input{
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 35px;
+}
+.formrow button{
+    border-radius: 30px;
+    color: #000;
+    font-size: 10pt;
+    font-weight: 600;
+    background-color: springgreen;
+    width: 150px;
+}
+.formrow label, .formrow button{
+    margin-top: 20px;
+}
+.callaction{
+    font-size: 10pt;
+}
+.footer{
+    background-color: #081833;
+    padding: 30px;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    display: inline-block;
+    list-style-type: none;
+    color: #fff;
+    font-size: 10pt;
+}
+.footerlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.footerlogo::after{
+    width: 50px;
+    height: 2px solid springgreen;
+    border: 2px solid springgreen;
+}
+.social{
+    margin-top: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.contact{
+    margin-top: 70px;
+    color: #fff;
+    font-weight: bold;
+    line-height:inherit;
+}
+.mem{
+    margin-top: 70px;
+    color: #fff;
+    font-weight: bold;
+    line-height:inherit;
+    display: flex;
+    align-content: center;
+}
+.mem small{
+    font-size: 8pt;
+}
+.copy{
+    
+    font-size: 7pt;
+    color: #fff;
+    text-align: center;
+}
+.burgermenu{
+    display: none;
+}
+@media only screen and (max-width:960px){
+    .burgermenu{
+        display: block;
+    }
+    .burgermenu:hover{
+        cursor: pointer
+    }
+    .navtabs{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
